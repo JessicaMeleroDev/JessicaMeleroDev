@@ -4,7 +4,7 @@
 ### Latest blog post
 <!-- BLOG-POST-LIST:START -->
 <p> 
-    <a href="https://dev.to/jessicamelerodev" target="blank">Como crear una api sencilla con Nodejs</a>
+    <a href="https://dev.to/jessicamelerodev/creacion-de-una-api-sencilla-con-nodejs-en-espanol-21n" target="blank">Como crear una api sencilla con Nodejs</a>
 </p>
 
 <!-- BLOG-POST-LIST:END -->
