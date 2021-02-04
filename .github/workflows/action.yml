@@ -4,14 +4,9 @@ on:
     - cron: '*/1 * * * *' # Runs every hour, on the hour
   workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the Github Actions Workflow page directly
 jobs:
-  action:
-    runs-on: ubuntu-latest
-
-    name: Checkout tools repo
-    uses: actions/checkout@v2
-      with:
-        repository: JessicaMeleroDev/JessicaMeleroDev
-        path: JessicaMeleroDev
-    uses: 
+  build:
+    runs-on: macos-latest
+    steps:
+      - name: Latest blog post
         with:
           feed_list: "https://dev.to/feed/jessicamelerodev"
