@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Jessica</h1>
 <h3 align="center">A passionate Backend Developer from Spain</h3>
 
-### Latest blog post workflow
+### Latest blog post
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 

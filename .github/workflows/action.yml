@@ -1,4 +1,4 @@
-name: Latest blog post workflow
+name: Latest blog post
 on:
   schedule: # Run workflow automatically
     - cron: '0 * * * *' # Runs every hour, on the hour
@@ -6,8 +6,12 @@ on:
 jobs:
   action:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - uses: JessicaMeleroDev/JessicaMeleroDev@main
+
+    name: Checkout tools repo
+    uses: actions/checkout@v2
+      with:
+        repository: JessicaMeleroDev/JessicaMeleroDev
+        path: JessicaMeleroDev
+    uses: 
         with:
           feed_list: "https://dev.to/feed/jessicamelerodev"
