@@ -9,4 +9,6 @@ jobs:
     steps:
       - name: Latest blog post
         with:
+          repository: JessicaMeleroDev/JessicaMeleroDev
+          path: JessicaMeleroDev
           feed_list: "https://dev.to/feed/jessicamelerodev"
