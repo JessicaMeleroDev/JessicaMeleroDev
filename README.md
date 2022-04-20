@@ -7,7 +7,9 @@
     <a href="https://dev.to/jessicamelerodev/creacion-de-una-api-sencilla-con-nodejs-en-espanol-21n" target="blank">Como crear una api sencilla con Nodejs</a>
     <br/>
     <a href="https://dev.to/jessicamelerodev/consultas-basicas-en-mongodb-por-terminal-4kk9" target="blank">Consultas básicas en MongoDB por terminal</a>
-    
+    <br/>
+    <a href="https://dev.to/jessicamelerodev/curiosidades-del-tipo-de-datos-de-mongodb-3l35" target="blank">Curiosidades del tipo de datos de MongoDB</a>
+   
 </p>
 
 <!-- BLOG-POST-LIST:END -->
